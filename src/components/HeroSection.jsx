@@ -39,11 +39,11 @@ const HeroSection = () => {
                 variants={containerVariants}
                 initial='hidden'
                 animate='show'
-                className='relative pr-10 '>
+                className='relative pr-10 mb-14'>
                 <span className='flex bg-gradient-to-r from-[#272727] to-[#11101D] p-2 mb-4 rounded-xl w-fit items-center h-8 text-xs'>
                     <img src='../assets/Discount.svg' alt='' />
                     20% DISCOUNT FOR 1 MONTH ACCOUNT</span>
-                <motion.h1 variants={childVariants} className='text-4xl leading-snug xl:text-[3.5rem] lg xl:leading-normal'>The Next <br />
+                <motion.h1 variants={childVariants} className='text-4xl leading-snug xl:text-[3.5rem] lg xl:leading-normal mb-12'>The Next <br />
                     <span className='text-[#5CE1E6]'>Generation</span><br />
                     Payment Method.</motion.h1>
                 <motion.p variants={childVariants} className='leading-8 md:w-[73%]'>Our team of experts uses a methodology to
